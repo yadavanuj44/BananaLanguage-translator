@@ -3,5 +3,5 @@ var inputText = document.querySelector("#txt-input");
 
 Translatebtn.addEventListener("click", translateButtonHandler);
 function translateButtonHandler() {
-    console.log("inputText");
+    console.log(inputText.value);
 };
