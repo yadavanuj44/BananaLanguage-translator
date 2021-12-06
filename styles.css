@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap');
+body { 
+    margin: 0px;
+    font-family: 'Gwendolyn', cursive;
+}
+
+header {
+    background-color: #FBBF24;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: x-large;
+    border-radius: 0rem;
+}
+
+.minion {
+    margin: auto;
+    display: block;
+    max-width: 30rem;
+}
+.container{
+    display: block;
+    text-align: center;
+    font-size: larger;
+}
+
+.textbox {
+    border: 1px solid black;
+    width: 80%;
+    height: 15vh;
+    margin:auto;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+.banana{
+    max-width: 10rem;
+    transform: rotate(20deg);
+}
+
+#btn-translate {
+    display: block;
+    background-color: transparent;
+    border: 0px solid #FBBF24;
+    border-radius: 0rem;
+    text-align: center;  
+    color: #346085;
+    font-weight: bold;
+    font-size: medium;
+    margin: 1rem auto;
+}
+
+#output {
+    border: 1px solid black;
+    width: 80%;
+    height: 15vh;
+    margin: auto;
+    margin:auto;
+    display: block;  
+    text-align: center;
+}
+
+.footer {
+    background-color: #FBBF24;;
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footer-heading {
+    font-size: large;
+}
+
+.footer-body {
+    font-size: large;
+}
