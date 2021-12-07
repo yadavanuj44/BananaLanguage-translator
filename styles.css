@@ -16,7 +16,7 @@ header {
 .minion {
     margin: auto;
     display: block;
-    max-width: 30rem;
+    max-width: 25rem;
 }
 .container{
     display: block;
@@ -35,19 +35,17 @@ header {
 }
 .banana{
     max-width: 10rem;
-    transform: rotate(20deg);
+    transform: rotate(25deg);
+    padding: 0rem;
 }
 
 #btn-translate {
+    padding: 0rem;
     display: block;
     background-color: transparent;
-    border: 0px solid #FBBF24;
-    border-radius: 0rem;
-    text-align: center;  
-    color: #346085;
-    font-weight: bold;
-    font-size: medium;
-    margin: 1rem auto;
+    border: 0px;
+    text-align: center;
+    margin: 0rem auto;
 }
 
 #output {
@@ -69,8 +67,11 @@ header {
 
 .footer-heading {
     font-size: large;
+    font-weight: bold;
 }
 
 .footer-body {
     font-size: large;
+    color: red;
+    font-weight: bold;
 }
