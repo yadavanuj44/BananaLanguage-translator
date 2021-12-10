@@ -37,6 +37,7 @@ header {
     max-width: 10rem;
     transform: rotate(25deg);
     padding: 0rem;
+    cursor: pointer;
 }
 
 #btn-translate {
@@ -46,6 +47,7 @@ header {
     border: 0px;
     text-align: center;
     margin: 0rem auto;
+    cursor: pointer;
 }
 
 #output {
